@@ -1,0 +1,19 @@
+/* tablet.css (min-width: 600px) */
+
+/* Contenido principal */
+main {
+    /* Aquí restauramos el ancho máximo que tenías */
+    max-width: 900px; 
+}
+
+/* Proyectos */
+#proyectos {
+    flex-direction: row; /* Cambiamos a filas (columnas) */
+    flex-wrap: wrap;     /* Si no caben, bajan */
+    /* El 'gap: 20px' del archivo base sigue funcionando */
+}
+
+.proyecto {
+    /* Fórmula para 2 columnas con un gap de 20px */
+    width: calc(50% - 10px); 
+}

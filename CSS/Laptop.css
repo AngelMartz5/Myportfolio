@@ -1,0 +1,16 @@
+/* Laptop.css (min-width: 1230px) */
+
+main {
+    max-width: 1100px; /* Lo hacemos un poco más ancho */
+}
+
+header h1 {
+    font-size: 2.5em; /* Título un poco más grande */
+}
+
+/* Proyectos */
+.proyecto {
+    /* Fórmula para 3 columnas con un gap de 20px */
+    /* (100% - (2 * 20px)) / 3 */
+    width: calc( (100% - 40px) / 3 );
+}
